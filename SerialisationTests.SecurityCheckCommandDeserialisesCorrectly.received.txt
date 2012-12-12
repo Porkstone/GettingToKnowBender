@@ -1,0 +1,10 @@
+<SecurityCheckCommand>
+  <AccountId />
+  <RequestId />
+  <QuestionAnswers>
+    <SecurityQuestionAnswer>
+      <QuestionName />
+      <QuestionAnswer />
+    </SecurityQuestionAnswer>
+  </QuestionAnswers>
+</SecurityCheckCommand>

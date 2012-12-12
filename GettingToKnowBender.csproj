@@ -31,8 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bender">
-      <HintPath>packages\Bender.1.0.6.0\lib\Bender.dll</HintPath>
+    <Reference Include="ApprovalTests">
+      <HintPath>packages\ApprovalTests.2.1\lib\ApprovalTests.dll</HintPath>
+    </Reference>
+    <Reference Include="ApprovalUtilities">
+      <HintPath>packages\ApprovalTests.2.1\lib\ApprovalUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Bender, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Bender.1.0.7.0\lib\Bender.dll</HintPath>
     </Reference>
     <Reference Include="Gallio, Version=3.3.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
       <HintPath>packages\mbunit.3.3.454.0\lib\net40\Gallio.dll</HintPath>
