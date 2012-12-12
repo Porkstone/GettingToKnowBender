@@ -33,7 +33,7 @@ namespace GettingToKnowBender
         [Test]
         public void SecurityQuestionAnswerSerialisesCorrectly()
         {
-            var test = new SecurityQuestionAnswer() { QuestionName = "NameOfFavouriteTeacher", QuestionAnswer = "MrsRobinson" };
+            var test = new SecurityQuestionAnswer() {QuestionName = "NameOfFavouriteTeacher", QuestionAnswer = "MrsRobinson"};
 
             var xml = Serializer.Create(x => x.PrettyPrint()).Serialize(test);
             Approvals.Verify(xml);
@@ -42,14 +42,14 @@ namespace GettingToKnowBender
 
       public class SecurityCheckCommand 
       {
-          public Object AccountId { get; set; }
-          public Object RequestId { get; set; }
+          public Guid AccountId { get; set; }
+          public Guid RequestId { get; set; }
           public SecurityQuestionAnswer[] QuestionAnswers { get; set; }
       }
 
       public class SecurityQuestionAnswer 
       {
-          public Object QuestionName { get; set; }
-          public Object QuestionAnswer { get; set; }
+          public String QuestionName { get; set; }
+          public String QuestionAnswer { get; set; }
       }
 }
