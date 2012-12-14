@@ -1,0 +1,8 @@
+<SecurityCheckCommand>
+  <AccountId xmlns:q1="http://microsoft.com/wsdl/types/" p3:type="q1:guid" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">d39b24ca-fe17-4fc6-b504-399764d10406</AccountId>
+  <RequestId xmlns:q2="http://microsoft.com/wsdl/types/" p3:type="q2:guid" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">21550455-8a1f-4ca4-bffa-0842bb30fc01</RequestId>
+  <FirstSecurityQuestion>
+    <QuestionName>NameOfFavouriteTeacher</QuestionName>
+    <QuestionAnswer>MrsRobinson</QuestionAnswer>
+  </FirstSecurityQuestion>
+</SecurityCheckCommand>
